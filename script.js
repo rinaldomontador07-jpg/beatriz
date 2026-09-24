@@ -1,5 +1,5 @@
 /**
- * R.R ESTÉTICA & MASSOTERAPIA - BEATRIZ RAMOS (ZONA SUL SP)
+ * R.R ESTÉTICA & MASSOTERAPIA - BEATRIZ RAMOS
  * Motor de Agendamento Inteligente em Tempo Real & Integração CRM Google Apps Script
  */
 

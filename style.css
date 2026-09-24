@@ -1,5 +1,5 @@
 /* ==========================================================================
-   R.R ESTÉTICA & MASSOTERAPIA - BEATRIZ RAMOS (ZONA SUL SP)
+   R.R ESTÉTICA & MASSOTERAPIA - BEATRIZ RAMOS
    Identidade Visual Sofisticada: Bronze Nobre, Ouro Champagne, Creme & Café
    Tipografia: Cinzel & Cormorant Garamond (Títulos) / Montserrat (Corpo)
    ========================================================================== */
@@ -748,8 +748,8 @@ h1, h2, h3, h4 {
 
 .etapas-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
 }
 
 .etapa-card {
@@ -805,7 +805,7 @@ h1, h2, h3, h4 {
 }
 
 /* ==========================================================================
-   REGIÃO / ZONA SUL
+   REGIÃO / ÁREA DE ATENDIMENTO
    ========================================================================== */
 .regiao {
     padding: 90px 0;

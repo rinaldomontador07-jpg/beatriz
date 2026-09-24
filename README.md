@@ -1,6 +1,6 @@
 # R.R Estética & Massoterapia - Beatriz Ramos
 
-Website institucional de estética e massoterapia com atendimento domiciliar exclusivo na Zona Sul de São Paulo, integrando sistema de agendamento online inteligente conectado a CRM Google Sheets / Google Apps Script e WhatsApp.
+Website institucional de estética e massoterapia com atendimento domiciliar, integrando sistema de agendamento online inteligente conectado a CRM Google Sheets / Google Apps Script e WhatsApp.
 
 ---
 
@@ -29,7 +29,7 @@ Website institucional de estética e massoterapia com atendimento domiciliar exc
 
 ---
 
-## 📍 Região Atendida (Zona Sul de SP)
+## 📍 Área de Atendimento
 - Moema, Brooklin, Campo Belo, Vila Mariana, Saúde, Morumbi, Indianópolis, Jabaquara, Campo Limpo e imediações.
 
 ---
