@@ -8,7 +8,7 @@
 // Quando você criar a planilha da Beatriz e publicar o Apps Script como Web App,
 // cole a URL gerada abaixo (entre as aspas):
 // =============================================================================
-const scriptURL = "https://script.google.com/macros/s/AKfycbyifTvjxTwbB2Bd5WVHL_Uu2IPtlRTEDK64DmK27fDdkSZ6o5TrO-gKD6jFNire439I/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbyiMjwXOt5YUnzGXlq-T3maz0pFSx4S65vDkQ46JrQrZeZNFkJth5baOh2TwNiKd8w/exec";
 
 // Número Oficial do WhatsApp da Beatriz Ramos (Formato Internacional: DDI + DDD + Número)
 const WHATSAPP_OFICIAL = "5511999999999";
