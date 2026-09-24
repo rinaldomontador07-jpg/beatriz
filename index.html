@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz Ramos | R.R Estética & Massoterapia Domiciliar - Zona Sul SP</title>
+    <meta name="description" content="Estética e Massoterapia domiciliar na Zona Sul de São Paulo com Beatriz Ramos. Drenagem Linfática, Limpeza de Pele, Massagens Relaxante e Terapêutica no conforto do seu lar em Moema, Brooklin, Campo Belo, Saúde e região.">
+    <meta name="keywords" content="massoterapia domiciliar zona sul sp, massagem em casa moema, drenagem linfatica brooklin, limpeza de pele zona sul, beatriz ramos massoterapia, rr estetica e massoterapia, quick massage corporativa">
+    <meta name="author" content="Beatriz Ramos - R.R Estética & Massoterapia">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Compartilhamento Social) -->
+    <meta property="og:title" content="Beatriz Ramos | R.R Estética & Massoterapia Domiciliar">
+    <meta property="og:description" content="Cuidado com presença. Bem-estar onde você está. Experiência de spa com atendimento técnico personalizado no conforto da sua casa na Zona Sul de SP.">
+    <meta property="og:image" content="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png">
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png">
+
+    <!-- Google Fonts: Cinzel, Cormorant Garamond & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons 6.5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVBAR -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#home" class="brand-logo" onclick="fecharAgendamento()">
+                <img src="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png" alt="Logo R.R Estética & Massoterapia - Beatriz Ramos" class="logo-img">
+                <div class="brand-text">
+                    <span class="brand-name">R.R Estética & Massoterapia</span>
+                    <span class="brand-tagline">Beatriz Ramos • Zona Sul SP</span>
+                </div>
+            </a>
+
+            <!-- Botão Menu Mobile -->
+            <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Abrir menu de navegação">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Links de Navegação -->
+            <nav class="main-navigation" id="main-nav">
+                <ul>
+                    <li><a href="#home" onclick="fecharAgendamento()">Início</a></li>
+                    <li><a href="#sobre" onclick="fecharAgendamento()">Sobre</a></li>
+                    <li><a href="#servicos" onclick="fecharAgendamento()">Procedimentos</a></li>
+                    <li><a href="#como-funciona" onclick="fecharAgendamento()">Como Funciona</a></li>
+                    <li><a href="#regiao" onclick="fecharAgendamento()">Zona Sul</a></li>
+                    <li><a href="#avaliacoes" onclick="fecharAgendamento()">Avaliações</a></li>
+                    <li><a href="#contato" onclick="fecharAgendamento()">Contato</a></li>
+                    <li class="mobile-only">
+                        <a href="https://wa.me/5511999999999" target="_blank" class="btn-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i> (11) 99999-9999
+                        </a>
+                    </li>
+                    <li class="mobile-only" style="margin-top: 6px;">
+                        <a onclick="abrirAgendamento()" class="btn-primary" style="cursor: pointer;">
+                            <i class="fa-solid fa-calendar-check"></i> Agendar Horário
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Botões Desktop -->
+            <div class="nav-cta-group desktop-only">
+                <a href="https://wa.me/5511999999999" target="_blank" class="btn-whatsapp" title="Falar no WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+                <a onclick="abrirAgendamento()" class="btn-primary" style="cursor: pointer;" title="Agendar Sessão Online">
+                    <i class="fa-solid fa-calendar-check"></i> Agendar Online
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+
+        <!-- CONTEÚDO PRINCIPAL (LANDING PAGE) -->
+        <div id="conteudo-principal">
+
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-overlay"></div>
+                <div class="container hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-spa"></i> Atendimento Domiciliar Exclusivo na Zona Sul de SP
+                    </div>
+                    <h1 class="hero-title">Cuidado com Presença. <br><span>Bem-estar Onde Você Está.</span></h1>
+                    <p class="hero-subtitle">
+                        Procedimentos de massoterapia e estética com excelência técnica, acolhimento humanizado e comodidade absoluta.<br>
+                        Leve toda a experiência e relaxamento de spa para o conforto do seu lar em Moema, Brooklin, Campo Belo, Saúde, Morumbi e região.
+                    </p>
+                    <div class="hero-actions">
+                        <a onclick="abrirAgendamento()" class="btn-hero-primary" style="cursor: pointer;">
+                            <i class="fa-solid fa-calendar-check"></i> Agendar Horário Online
+                        </a>
+                        <a href="https://wa.me/5511999999999" target="_blank" class="btn-hero-secondary">
+                            <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+                        </a>
+                    </div>
+                    
+                    <div class="hero-features">
+                        <div class="hero-feature-item">
+                            <i class="fa-solid fa-house-chimney-heart"></i>
+                            <span>Conforto absoluto em sua casa</span>
+                        </div>
+                        <div class="hero-feature-item">
+                            <i class="fa-solid fa-certificate"></i>
+                            <span>Rigor técnico e biossegurança</span>
+                        </div>
+                        <div class="hero-feature-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>Pontualidade calculada</span>
+                        </div>
+                        <div class="hero-feature-item">
+                            <i class="fa-solid fa-star"></i>
+                            <span>Avaliação 5 Estrelas no Google</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sobre Section -->
+            <section id="sobre" class="sobre">
+                <div class="container sobre-container">
+                    <div class="sobre-img-box">
+                        <div class="img-frame">
+                            <img src="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png" alt="R.R Estética & Massoterapia - Beatriz Ramos" class="sobre-logo-art">
+                            <div class="stamp-badge">
+                                <span class="stamp-year">2026</span>
+                                <span class="stamp-text">Atendimento<br>Zona Sul SP</span>
+                            </div>
+                        </div>
+                        <div class="quote-card">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>“Cuidar do corpo com técnica e carinho faz toda a diferença. Meu propósito é devolver sua qualidade de vida sem que você enfrente o trânsito da cidade.”</p>
+                            <strong>— Beatriz Ramos</strong>
+                        </div>
+                    </div>
+
+                    <div class="sobre-texto">
+                        <span class="section-tag">Conheça a Profissional</span>
+                        <h2 class="section-title">Beatriz Ramos • R.R Estética & Massoterapia</h2>
+                        <p class="lead-text">
+                            Especialista em técnicas integradas de massoterapia corporal e estética facial, com formação dedicada a levar saúde, descompressão muscular e rejuvenescimento às clientes.
+                        </p>
+                        <p>
+                            Criada para mulheres com rotinas intensas — executivas, profissionais liberais e mães — a <strong>R.R Estética & Massoterapia</strong> supera o formato impessoal dos grandes spas. Aqui você recebe escuta atenta, diagnóstico individualizado e um protocolo sob medida para as necessidades do seu corpo.
+                        </p>
+                        <p>
+                            Todo o atendimento é pautado pelo lema <em>Cuidar • Renovar • Transformar</em>: do kit higienizado de atendimento aos óleos vegetais nobres com aromaterapia selecionada para o seu momento.
+                        </p>
+
+                        <div class="pilares-grid">
+                            <div class="pilar-card">
+                                <i class="fa-solid fa-shield-heart"></i>
+                                <div>
+                                    <h4>Rigor Técnico & Assepsia</h4>
+                                    <p>Mala higienizada, lençóis descartáveis e materiais esterilizados a cada atendimento.</p>
+                                </div>
+                            </div>
+                            <div class="pilar-card">
+                                <i class="fa-solid fa-hand-holding-heart"></i>
+                                <div>
+                                    <h4>Acolhimento Humanizado</h4>
+                                    <p>Anamnese atenta prévia, respeito ao silêncio e adaptação à sua sensibilidade e ritmo.</p>
+                                </div>
+                            </div>
+                            <div class="pilar-card">
+                                <i class="fa-solid fa-car-side"></i>
+                                <div>
+                                    <h4>Zero Estresse no Trânsito</h4>
+                                    <p>Toda a comodidade de terminar sua massagem e relaxar diretamente no seu sofá ou cama.</p>
+                                </div>
+                            </div>
+                            <div class="pilar-card">
+                                <i class="fa-solid fa-gem"></i>
+                                <div>
+                                    <h4>Cosméticos Nobres</h4>
+                                    <p>Ativos hidratantes de alta performance e óleos com propriedades terapêuticas puras.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sobre-cta">
+                            <a onclick="abrirAgendamento()" class="btn-primary" style="cursor: pointer;">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar com a Beatriz
+                            </a>
+                            <a href="#servicos" class="btn-outline">
+                                Ver Todos os Procedimentos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Procedimentos e Serviços Section -->
+            <section id="servicos" class="servicos">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <span class="section-tag">Cardápio de Cuidados</span>
+                        <h2 class="section-title">Procedimentos Corporais & Faciais</h2>
+                        <p class="section-subtitle">
+                            Técnicas manuais especializadas aplicadas com intenção, anatomia e conforto no seu endereço na Zona Sul.
+                        </p>
+                    </div>
+
+                    <div class="servicos-grid">
+                        
+                        <!-- 1. Higienização + Hidratação Facial -->
+                        <div class="servico-card">
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-droplet"></i></div>
+                                <span class="servico-tag">Facial</span>
+                            </div>
+                            <h3 class="servico-titulo">Higienização + Hidratação Facial</h3>
+                            <p class="servico-desc">
+                                Protocolo revitalizante que devolve água, elasticidade e luminosidade natural à pele. Limpeza suave combinada a dermocosméticos hidratantes nobres para proteger a barreira cutânea contra a poluição e o cansaço.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Nutrição celular profunda</li>
+                                <li><i class="fa-solid fa-check"></i> Viço e maciez imediata</li>
+                                <li><i class="fa-solid fa-check"></i> Duração média de 45 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Higienização + Hidratação Facial')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 2. Limpeza de Pele -->
+                        <div class="servico-card destaque">
+                            <div class="badge-card-destaque">Mais Procurado</div>
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-sparkles"></i></div>
+                                <span class="servico-tag">Facial Profunda</span>
+                            </div>
+                            <h3 class="servico-titulo">Limpeza de Pele</h3>
+                            <p class="servico-desc">
+                                Desobstrução completa de poros, extração delicada de cravos e impurezas, assepsia rigorosa e máscara calmante. Regenera a textura do rosto, controla a oleosidade e promove renovação celular saudável.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Remoção precisa de impurezas</li>
+                                <li><i class="fa-solid fa-check"></i> Textura aveludada e radiante</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 60 a 75 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Limpeza de Pele')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 3. Drenagem Linfática -->
+                        <div class="servico-card">
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-feather-pointed"></i></div>
+                                <span class="servico-tag">Corporal</span>
+                            </div>
+                            <h3 class="servico-titulo">Drenagem Linfática</h3>
+                            <p class="servico-desc">
+                                Manobras rítmicas e suaves que estimulam o sistema linfático, eliminando líquidos retidos e toxinas acumuladas. Ideal para alívio do inchaço nas pernas, retenção pré-menstrual, pós-operatório e gestantes.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Redução imediata de medidas e inchaço</li>
+                                <li><i class="fa-solid fa-check"></i> Melhora significativa da circulação</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 50 a 60 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Drenagem Linfática')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 4. Massagem Relaxante Terapêutica -->
+                        <div class="servico-card destaque">
+                            <div class="badge-card-destaque">Alívio de Dores</div>
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                                <span class="servico-tag">Terapêutica</span>
+                            </div>
+                            <h3 class="servico-titulo">Massagem Relaxante Terapêutica</h3>
+                            <p class="servico-desc">
+                                Tratamento aprofundado focado nos pontos-gatilho (nós de tensão), contraturas cervicais, lombalgia e sobrecarga muscular. Une o relaxamento do corpo à resolução das dores crônicas do dia a dia.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Desativação de pontos de tensão</li>
+                                <li><i class="fa-solid fa-check"></i> Recuperação da mobilidade articular</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 60 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Massagem Relaxante Terapêutica')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 5. Massagem Relaxante Desportiva -->
+                        <div class="servico-card">
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-person-running"></i></div>
+                                <span class="servico-tag">Performance</span>
+                            </div>
+                            <h3 class="servico-titulo">Massagem Relaxante Desportiva</h3>
+                            <p class="servico-desc">
+                                Protocolo com pressão moderada a firme e liberação miofascial específica. Acelera a recuperação das fibras musculares pós-treino, previne lesões, diminui a rigidez e melhora a oxigenação muscular.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Alívio de sobrecargas pós-exercício</li>
+                                <li><i class="fa-solid fa-check"></i> Liberação da fáscia muscular</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 60 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Massagem Relaxante Desportiva')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 6. Massagem Relaxante -->
+                        <div class="servico-card">
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-spa"></i></div>
+                                <span class="servico-tag">Bem-estar</span>
+                            </div>
+                            <h3 class="servico-titulo">Massagem Relaxante</h3>
+                            <p class="servico-desc">
+                                Toques fluidos e contínuos em todo o corpo com óleos essenciais terapêuticos. Promove descompressão profunda do sistema nervoso, reduz os níveis de estresse e proporciona noites de sono reparadoras.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Diminuição rápida do estresse e cortisol</li>
+                                <li><i class="fa-solid fa-check"></i> Sensação de leveza e descanso pleno</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 60 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Massagem Relaxante')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 7. Quick Massage -->
+                        <div class="servico-card">
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-chair"></i></div>
+                                <span class="servico-tag">Express / Corporativo</span>
+                            </div>
+                            <h3 class="servico-titulo">Quick Massage</h3>
+                            <p class="servico-desc">
+                                Atendimento dinâmico em cadeira ergonômica sem necessidade de trocar de roupa. Focada na cervical, trapézio, costas e braços, oferecendo recarga imediata de energia para pausas em home office ou eventos corporativos.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Alívio postural sem despir-se</li>
+                                <li><i class="fa-solid fa-check"></i> Excelente para empresas e escritórios</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 15 a 30 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Quick Massage')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 8. Pedras Quentes -->
+                        <div class="servico-card destaque">
+                            <div class="badge-card-destaque">Experiência Spa</div>
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                                <span class="servico-tag">Termoterapia</span>
+                            </div>
+                            <h3 class="servico-titulo">Pedras Quentes</h3>
+                            <p class="servico-desc">
+                                Terapia geotermal com pedras vulcânicas aquecidas posicionadas nos centros energéticos e deslizadas pelo corpo. O calor penetra profundamente na musculatura, derretendo contraturas e proporcionando paz absoluta.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Calor geotermal regenerador</li>
+                                <li><i class="fa-solid fa-check"></i> Relaxamento articular e muscular intenso</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 75 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Pedras Quentes')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                        <!-- 9. Massagem com Bambu -->
+                        <div class="servico-card">
+                            <div class="servico-header">
+                                <div class="servico-icon"><i class="fa-solid fa-tree"></i></div>
+                                <span class="servico-tag">Bambuterapia</span>
+                            </div>
+                            <h3 class="servico-titulo">Massagem com Bambu</h3>
+                            <p class="servico-desc">
+                                Técnica oriental que utiliza hastes de bambu em diferentes calibres para realizar manobras drenantes, modeladoras e relaxantes. Estimula a circulação, esculpe o contorno corporal e alivia sobrecargas miofasciais.
+                            </p>
+                            <ul class="servico-beneficios">
+                                <li><i class="fa-solid fa-check"></i> Ação modeladora e drenante integrada</li>
+                                <li><i class="fa-solid fa-check"></i> Alívio de tensões miofasciais</li>
+                                <li><i class="fa-solid fa-check"></i> Duração de 60 min</li>
+                            </ul>
+                            <button onclick="abrirAgendamento('Massagem com Bambu')" class="btn-card-agendar">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Este Horário
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Como Funciona o Atendimento Domiciliar -->
+            <section id="como-funciona" class="como-funciona">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <span class="section-tag">Praticidade e Segurança</span>
+                        <h2 class="section-title">Como Funciona a Experiência no Seu Lar</h2>
+                        <p class="section-subtitle">
+                            Toda a atmosfera e qualidade de uma clínica renomada de estética e spa, sem que você saia da sua casa.
+                        </p>
+                    </div>
+
+                    <div class="etapas-grid">
+                        <div class="etapa-card">
+                            <div class="etapa-numero">01</div>
+                            <div class="etapa-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                            <h3>Escolha seu Momento</h3>
+                            <p>Selecione o procedimento e escolha seu dia e horário no sistema online ou direto pelo nosso WhatsApp com rapidez.</p>
+                        </div>
+
+                        <div class="etapa-card">
+                            <div class="etapa-numero">02</div>
+                            <div class="etapa-icon"><i class="fa-solid fa-suitcase-medical"></i></div>
+                            <h3>Beatriz Leva a Estrutura</h3>
+                            <p>Maca profissional confortável, lençóis descartáveis, toalhas higienizadas, óleos nobres e música ambiente suave.</p>
+                        </div>
+
+                        <div class="etapa-card">
+                            <div class="etapa-numero">03</div>
+                            <div class="etapa-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+                            <h3>Anamnese e Protocolo</h3>
+                            <p>Avaliação cuidadosa das suas preferências, sensibilidade e queixas para uma sessão 100% personalizada e segura.</p>
+                        </div>
+
+                        <div class="etapa-card">
+                            <div class="etapa-numero">04</div>
+                            <div class="etapa-icon"><i class="fa-solid fa-bed"></i></div>
+                            <h3>Descanso Imediato</h3>
+                            <p>Ao término da sessão, você já está no sossego do seu lar para descansar, sem trânsito, sem estresse e sem correria.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Região de Atendimento na Zona Sul -->
+            <section id="regiao" class="regiao">
+                <div class="container regiao-container">
+                    <div class="regiao-texto">
+                        <span class="section-tag">Área de Cobertura</span>
+                        <h2 class="section-title">Atendimento Domiciliar na Zona Sul de SP</h2>
+                        <p class="lead-text">
+                            Atendemos com pontualidade e rigor de horário nos principais bairros nobres e residenciais da Zona Sul da capital paulista.
+                        </p>
+                        
+                        <div class="bairros-chips">
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Moema</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Brooklin</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Campo Belo</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Vila Mariana</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Saúde</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Morumbi</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Indianópolis</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Jabaquara</span>
+                            <span class="chip"><i class="fa-solid fa-location-dot"></i> Campo Limpo</span>
+                        </div>
+
+                        <p class="aviso-deslocamento">
+                            <i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 6px;"></i>
+                            Mora em outro bairro próximo na capital? Fale conosco para consultar disponibilidade e rota da agenda!
+                        </p>
+
+                        <div style="margin-top: 24px;">
+                            <a onclick="abrirAgendamento()" class="btn-primary" style="cursor: pointer;">
+                                <i class="fa-solid fa-calendar-check"></i> Consultar Agenda no Meu Bairro
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="regiao-destaque-box">
+                        <div class="destaque-card-horarios">
+                            <i class="fa-regular fa-clock icon-destaque"></i>
+                            <h3>Horários de Atendimento</h3>
+                            <p class="horario-destaque">Segunda a Sábado</p>
+                            <p class="horario-faixa">09h00 às 18h00</p>
+                            <div class="divisor-ouro"></div>
+                            <p class="horario-nota">Sessões com intervalo planejado para garantir pontualidade britânica em cada visita.</p>
+                            <a href="https://wa.me/5511999999999" target="_blank" class="btn-whatsapp" style="width: 100%; justify-content: center; margin-top: 14px;">
+                                <i class="fa-brands fa-whatsapp"></i> Tirar Dúvidas via WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Avaliações / Prova Social (Apenas textos informativos, sem links externos) -->
+            <section id="avaliacoes" class="avaliacoes">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <span class="section-tag">Opinião de Quem Confia</span>
+                        <h2 class="section-title">Experiências Reais de Clientes</h2>
+                        <div class="google-badge-display">
+                            <span class="badge-google-icon"><i class="fa-brands fa-google"></i></span>
+                            <div class="stars-group">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="nota-google">Classificação 5 Estrelas no Google</span>
+                        </div>
+                    </div>
+
+                    <div class="depoimentos-grid">
+                        
+                        <div class="depoimento-card">
+                            <div class="depoimento-header">
+                                <div class="avatar-circle">AP</div>
+                                <div class="depoimento-autor">
+                                    <h4>Ana Paula</h4>
+                                    <span>Gestora • Brooklin (São Paulo)</span>
+                                </div>
+                            </div>
+                            <div class="stars-card">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="depoimento-texto">
+                                “Receber a Beatriz em casa depois de semanas puxadas de home office foi um divisor de águas. O alívio na cervical foi imediato e o cuidado com a higiene e detalhes é impecável. Uma verdadeira experiência de spa no meu apartamento!”
+                            </p>
+                            <span class="tag-procedimento"><i class="fa-solid fa-check"></i> Massagem Relaxante Terapêutica</span>
+                        </div>
+
+                        <div class="depoimento-card">
+                            <div class="depoimento-header">
+                                <div class="avatar-circle">CS</div>
+                                <div class="depoimento-autor">
+                                    <h4>Carla Souza</h4>
+                                    <span>Comerciante • Moema (São Paulo)</span>
+                                </div>
+                            </div>
+                            <div class="stars-card">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="depoimento-texto">
+                                “A drenagem linfática é fantástica. Passo muitas horas em pé e a sensação de leveza que a Beatriz proporciona é indescritível. Muito pontual, educada e atenciosa. Já fechei pacote de manutenção semanal!”
+                            </p>
+                            <span class="tag-procedimento"><i class="fa-solid fa-check"></i> Drenagem Linfática</span>
+                        </div>
+
+                        <div class="depoimento-card">
+                            <div class="depoimento-header">
+                                <div class="avatar-circle">JR</div>
+                                <div class="depoimento-autor">
+                                    <h4>Juliana Ramos</h4>
+                                    <span>Analista de TI • Saúde (São Paulo)</span>
+                                </div>
+                            </div>
+                            <div class="stars-card">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="depoimento-texto">
+                                “Treino com frequência e a massagem desportiva da Beatriz é essencial para minha recuperação. Ela tem domínio total de anatomia e liberação muscular. Não troco por nenhuma clínica!”
+                            </p>
+                            <span class="tag-procedimento"><i class="fa-solid fa-check"></i> Massagem Desportiva</span>
+                        </div>
+
+                        <div class="depoimento-card">
+                            <div class="depoimento-header">
+                                <div class="avatar-circle">HS</div>
+                                <div class="depoimento-autor">
+                                    <h4>Helena Silva</h4>
+                                    <span>Morumbi (São Paulo)</span>
+                                </div>
+                            </div>
+                            <div class="stars-card">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="depoimento-texto">
+                                “A sessão de pedras quentes foi o momento mais relaxante do meu mês. Os óleos essenciais, a temperatura das pedras e o carinho com que ela conduz o atendimento transmitem uma paz indescritível.”
+                            </p>
+                            <span class="tag-procedimento"><i class="fa-solid fa-check"></i> Pedras Quentes</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção de Contato -->
+            <section id="contato" class="contato">
+                <div class="container contato-container">
+                    <div class="contato-info">
+                        <span class="section-tag">Canais de Atendimento</span>
+                        <h2 class="section-title">Pronta para Cuidar do Seu Corpo?</h2>
+                        <p>
+                            Entre em contato para tirar dúvidas sobre protocolos, indicar sua região ou solicitar um horário personalizado. Atendimento individualizado com rapidez e acolhimento.
+                        </p>
+
+                        <div class="contato-items">
+                            <div class="contato-item">
+                                <div class="item-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div>
+                                    <h4>WhatsApp Direto</h4>
+                                    <p><a href="https://wa.me/5511999999999" target="_blank">(11) 99999-9999</a></p>
+                                </div>
+                            </div>
+                            <div class="contato-item">
+                                <div class="item-icon"><i class="fa-brands fa-instagram"></i></div>
+                                <div>
+                                    <h4>Instagram Oficial</h4>
+                                    <p><a href="https://www.instagram.com/" target="_blank">@R.R.estetica&massoterapia</a></p>
+                                </div>
+                            </div>
+                            <div class="contato-item">
+                                <div class="item-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Região de Atendimento</h4>
+                                    <p>Atendimento Domiciliar na Zona Sul de São Paulo e imediações</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contato-card-cta">
+                        <div class="cta-box-inner">
+                            <img src="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png" alt="Logo R.R" class="cta-logo">
+                            <h3>Reserve Sua Sessão Online</h3>
+                            <p>Consulte os horários disponíveis em tempo real na nossa agenda e receba a confirmação direto no WhatsApp.</p>
+                            <a onclick="abrirAgendamento()" class="btn-primary" style="cursor: pointer; width: 100%; justify-content: center; margin-top: 16px;">
+                                <i class="fa-solid fa-calendar-check"></i> Agendar Agora no Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div> <!-- Fim de #conteudo-principal -->
+
+        <!-- SEÇÃO DE AGENDAMENTO ONLINE (TELA INTEGRADA SPA) -->
+        <section id="agendamento" class="agendamento-section" style="display: none;">
+            <div class="container">
+                <div class="agendamento-header">
+                    <button onclick="fecharAgendamento()" class="btn-voltar-topo" title="Voltar para a página">
+                        <i class="fa-solid fa-arrow-left"></i> Voltar ao site
+                    </button>
+                    <span class="section-tag">Agenda Online R.R</span>
+                    <h2>Agende sua Sessão com Beatriz Ramos</h2>
+                    <p>Selecione o procedimento, a data e o horário desejado para verificar a disponibilidade em tempo real (09:00 às 18:00).</p>
+                </div>
+
+                <div class="agendamento-container">
+                    <form id="form-agendamento">
+                        <div class="campo">
+                            <label for="nome"><i class="fa-regular fa-user" style="margin-right: 6px;"></i> Nome Completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="whatsapp"><i class="fa-brands fa-whatsapp" style="margin-right: 6px;"></i> Seu WhatsApp</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(11) 99999-9999" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="bairro"><i class="fa-solid fa-location-dot" style="margin-right: 6px;"></i> Seu Bairro e Cidade</label>
+                            <input type="text" id="bairro" name="bairro" placeholder="Ex: Moema - São Paulo" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="servico"><i class="fa-solid fa-spa" style="margin-right: 6px;"></i> Procedimento Desejado</label>
+                            <select id="servico" name="servico" required>
+                                <option value="">Selecione um procedimento...</option>
+                                <option value="Higienização + Hidratação Facial">Higienização + Hidratação Facial</option>
+                                <option value="Limpeza de Pele">Limpeza de Pele</option>
+                                <option value="Drenagem Linfática">Drenagem Linfática</option>
+                                <option value="Massagem Relaxante Terapêutica">Massagem Relaxante Terapêutica</option>
+                                <option value="Massagem Relaxante Desportiva">Massagem Relaxante Desportiva</option>
+                                <option value="Massagem Relaxante">Massagem Relaxante</option>
+                                <option value="Quick Massage">Quick Massage</option>
+                                <option value="Pedras Quentes">Pedras Quentes</option>
+                                <option value="Massagem com Bambu">Massagem com Bambu</option>
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label for="data"><i class="fa-regular fa-calendar" style="margin-right: 6px;"></i> Data da Sessão</label>
+                            <input type="date" id="data" name="data" required>
+                        </div>
+                        
+                        <!-- SELETOR DINÂMICO DE HORÁRIOS (INTEGRAÇÃO CRM GOOGLE APPS SCRIPT) -->
+                        <div class="campo">
+                            <label><i class="fa-regular fa-clock" style="margin-right: 6px;"></i> Horários Disponíveis (09:00 às 18:00)</label>
+                            <div id="filtro-aviso" class="aviso-filtro">
+                                <i class="fa-solid fa-circle-info"></i> Selecione o procedimento e a data acima para exibir os horários disponíveis.
+                            </div>
+                            <div id="grade-horarios" class="horarios-grid" style="display: none;"></div>
+                            <input type="hidden" id="horario-selecionado" name="horario" required>
+                        </div>
+
+                        <!-- MENSAGEM DE ERRO/ALERTA -->
+                        <div id="msg-erro" style="color: #c0392b; font-size: 0.92rem; margin-bottom: 16px; display: none; text-align: center; font-weight: 600;"></div>
+
+                        <button type="submit" id="btn-submit">
+                            <i class="fa-solid fa-check"></i> Confirmar Agendamento
+                        </button>
+                        
+                        <a onclick="fecharAgendamento()" class="btn-voltar">
+                            <i class="fa-solid fa-arrow-left"></i> Voltar para a página inicial
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('home').scrollIntoView();" style="cursor: pointer;">Início</a></li>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('sobre').scrollIntoView();" style="cursor: pointer;">Sobre</a></li>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('servicos').scrollIntoView();" style="cursor: pointer;">Procedimentos</a></li>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('como-funciona').scrollIntoView();" style="cursor: pointer;">Como Funciona</a></li>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('regiao').scrollIntoView();" style="cursor: pointer;">Zona Sul</a></li>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('avaliacoes').scrollIntoView();" style="cursor: pointer;">Avaliações</a></li>
+                    <li><a onclick="fecharAgendamento(); document.getElementById('contato').scrollIntoView();" style="cursor: pointer;">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <img src="https://i.postimg.cc/T1h7Q3wC/beatrizlogo.png" alt="R.R Estética & Massoterapia" class="footer-logo">
+                    <h2>R.R Estética & Massoterapia</h2>
+                    <p class="footer-tagline">Beatriz Ramos • Cuidar • Renovar • Transformar</p>
+                    <p style="font-size: 0.85rem; color: #d6c6b7; margin-top: 6px;">
+                        <i class="fa-solid fa-location-dot" style="color: var(--accent-gold);"></i> Atendimento Domiciliar Exclusivo na Zona Sul de São Paulo
+                    </p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @R.R.estetica&massoterapia" title="Instagram Oficial"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp (11) 99999-9999" title="WhatsApp Oficial"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                
+                <div class="footer-copy">
+                    <p>&copy; 2026 Beatriz Ramos | R.R Estética & Massoterapia. Todos os direitos reservados.</p>
+                    <p>Design refinado & Agendamento inteligente no conforto do seu lar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÕES FLUTUANTES: AGENDAR ONLINE E WHATSAPP -->
+    <a onclick="abrirAgendamento()" class="agendar-float" title="Agendar Horário Online">
+        <i class="fa-solid fa-calendar-check"></i> <span>Agendar Online</span>
+    </a>
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" aria-label="Falar no WhatsApp" title="Falar no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts da Aplicação -->
+    <script src="script.js"></script>
+</body>
+</html>

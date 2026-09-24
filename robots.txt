@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rinaldomontador07-jpg.github.io/beatriz/sitemap.xml
